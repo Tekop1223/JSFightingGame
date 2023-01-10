@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--import background image -->     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSFightingGame</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="position: relative; display: inline-block">
+        <!-- smaller red container div -->
+        <div class="container">
+            <!-- player health -->
+            <div class="healthBar">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="playerHealth"></div>
+            </div>
+
+            <!-- timer -->
+            <div id="timer">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="healthBar">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="enemyHealth"></div>
+            </div>
+            <div></div>
+        </div>
+        <div id="displayText">
+          
+        </div>
+
+    <canvas></canvas>
+    <script src="classes/Classes.js"></script>
+    <script src="classes/utils.js"></script>
+    <script src="Index.js"></script>
+   
+  </body>
+</html>
